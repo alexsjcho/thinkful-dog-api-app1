@@ -1,9 +1,17 @@
 * {
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(38, 36, 36);
+}
 
 h1 {
   margin-top: 5%;
+  color: whitesmoke;
+}
+
+h3 {
+  color: white;
 }
 
 #container {
@@ -13,6 +21,6 @@ h1 {
   right: 0;
   bottom: 0;
   left: 0;
-  width: 33%;
+  width: 40%;
   height: 50%;
 }
