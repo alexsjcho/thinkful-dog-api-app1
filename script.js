@@ -1,7 +1,5 @@
 "use strict";
-
-let numInput = parseInt(watchUserInput);
-
+//Pass numInput, which represents an integer as an argument
 function getDogImage(numInput) {
   if (numInput < 3) {
     fetch("https://dog.ceo/api/breeds/image/random/3")
@@ -20,6 +18,7 @@ function watchUserInput() {
   $("#dog-num-form").submit(e => {
     e.preventDefault();
     let userNumInput = $("#num-dog").val();
+    //Pass the number value to getDogImage
     getDogImage(userNumInput);
   });
 }
